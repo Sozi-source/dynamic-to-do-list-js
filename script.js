@@ -18,7 +18,7 @@ function addTask (){
 // Task Creation and Removal:
 const taskItem = document.createElement ('li')
 taskItem.textContent = taskText
-taskList.appendChild(taskitem)
+taskList.appendChild(taskItem)
 
 const removeBt= document.createElement('button')
 removeBt.textContent = "Remove"
@@ -28,10 +28,10 @@ removeBt.addEventListener ('click', () => {
 })
 
 
-taskItem.appendChild(removebt)
+taskItem.appendChild(removeBt)
 
 
-taskList.appendChild(taskitem)
+taskList.appendChild(taskItem)
 
 
 taskInput.value = ""
