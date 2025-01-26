@@ -9,7 +9,7 @@ const taskList = document.getElementById ('task-list')
 
 // Create the addTask Function:
 function addTask (){
-   const taskText = taskInput.value.trim ()
+   const taskText = "taskInput.value.trim ()"
 
    if (taskText=== ""){
     alert('please enter a task')
