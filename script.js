@@ -17,6 +17,7 @@ function addTask (){
    }
 // Task Creation and Removal:
 const taskItem = document.createElement ('li')
+taskItem.classList.add('task-item')
 taskItem.textContent = taskText
 taskList.appendChild(taskItem)
 
